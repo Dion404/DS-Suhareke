@@ -1,0 +1,7 @@
+.by-img {
+    background:url("insect.jpg")
+}
+.border {
+    border-width: 3px;
+    border-style: solid;
+}
