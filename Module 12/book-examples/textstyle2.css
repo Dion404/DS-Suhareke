@@ -1,0 +1,8 @@
+.text-style{
+    color: darkblue;
+    text-decoration: line-through;
+    letter-spacing: 5px;
+    word-spacing: 2px;
+    text-align: left;
+    font-size: 40px;
+}
