@@ -1,0 +1,17 @@
+ul{
+    background-color: aqua;
+    width: auto;
+    height: auto;
+    word-spacing: 3px;
+    font-size: small;
+    border: 2px;
+}
+
+ol{
+    background-color: blue;
+    width: auto;
+    height: auto;
+    word-spacing: 5px;
+    font-size: medium;
+    border: 1px;
+}
