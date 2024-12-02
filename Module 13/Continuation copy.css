@@ -1,0 +1,45 @@
+a{color: red;}
+
+a:link{
+    color: blue;
+}
+a:visited{
+    color: aqua;
+}
+a:hover{
+    color: black;
+}
+a:active{
+    color: blueviolet
+}
+
+ul{
+    list-style-type: square;
+    color: aqua;
+    size: 50px;
+    list-style-image: url(ModelY.jpg);
+    list-style-position: inside;
+}
+
+li{
+    border-bottom: 150px red;
+}
+
+
+
+td, th{
+    border: 2px solid;
+    padding: 10px;
+}
+
+table tbody>tr:nth-child(odd){
+  background-color: blueviolet;
+  text-decoration: underline;
+}
+
+div{
+    width: max-content;
+    height: max-content;
+    background-color: peru;
+    overflow: scroll;
+}
