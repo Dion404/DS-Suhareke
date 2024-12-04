@@ -1,0 +1,27 @@
+article > p::first-line{
+    background-color: aqua;
+    text-decoration: underline;
+}
+
+div + p{
+    background-color: blueviolet;
+    text-decoration: line-through;
+}
+
+input:focus{
+    border: 1px green;
+    border-color: aqua;
+    background-color: blueviolet;
+}
+
+html{
+    background-color: gray;
+}
+
+div > p::before{
+    background-color: yellow;
+}
+
+span > p::selection{
+    background-color: red;
+}
