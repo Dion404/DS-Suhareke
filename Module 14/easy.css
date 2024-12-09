@@ -1,0 +1,11 @@
+nav > ul{
+    background-color: aqua;
+    color: blueviolet;
+    padding: 2px;
+}
+
+nav > li{
+    background-color: blue;
+    color: red;
+    padding: 4px;
+}
