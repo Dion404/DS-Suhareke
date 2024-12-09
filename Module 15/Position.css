@@ -1,0 +1,39 @@
+.static{
+    border: 1px solid #000;
+    width: 250px;
+    height: 300px;
+    position: static;
+    padding: 10px;
+}
+
+.relative{
+    border: 1px solid #000;
+    width: 250px;
+    height: 300px;
+    position: relative;
+    padding: 10px;
+}
+
+.absolute{
+    border: 1px solid #000;
+    width: 250px;
+    height: 300px;
+    position: absolute;
+    padding: 10px;
+}
+
+.sticky{
+    border: 1px solid #000;
+    width: 250px;
+    height: 300px;
+    position: sticky;
+    padding: 10px;
+}
+
+.fixed{
+    border: 1px solid #000;
+    width: 250px;
+    height: 300px;
+    position: fixed;
+    padding: 10px;
+}
