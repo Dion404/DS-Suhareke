@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS 2D Transformations</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .transform-box {
+            width: 200px;
+            height: 200px;
+            background-color: #00ff5e;
+            color: rgb(255, 0, 0);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 1px;
+            transition: transform 1s ease;
+        }
+
+        .transform-box:hover {
+            transform: rotate(45deg) scale(1.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="transform-box">
+    </div>
+</body>
+</html>
