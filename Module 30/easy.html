@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport">
+    <title>easy challenge</title>
+    <script>
+        function showAlert() {
+            var name = document.getElementById('name').value;
+            var age = document.getElementById('age').value;
+
+            var message = "Hello " + name + ", you are" + age + " years old!";
+            
+            alert(message);
+        }
+    </script>
+</head>
+<body>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+    
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age" placeholder="Enter your age"><br><br>
+    
+    <button onclick="showAlert()">Submit</button>
+</body>
+</html>
