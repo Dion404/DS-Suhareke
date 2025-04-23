@@ -39,7 +39,7 @@ function ChangeImage  (){
         images = "class.gif";
     }
     else if(time == sleeptime){
-        images = "night.gift";
+        images = "night.gif";
     }
     imageHTML.src = image;
     console.log(imageHTML.src);
