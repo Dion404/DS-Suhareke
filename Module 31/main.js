@@ -18,7 +18,7 @@ while(j<5){
 console.log("--------")
 
 
-//???
+//dual loops
 let n=0;
 let x=0;
 
@@ -37,3 +37,4 @@ for(var i=0; i<5; i++){
     console.log("Value of i is:  "+i);
 }
 console.log("--------------------------")
+//for /in, enter main copy.js
