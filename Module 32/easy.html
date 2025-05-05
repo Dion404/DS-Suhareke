@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport">
+    <title>Validimi i emrit</title>
+    <style>
+        .error{
+            color: red;
+            font-size: 12px;
+            display:none;
+        }
+    </style>
+</head>
+<body>
+    <form id="nameForm">
+        <label for="name">Shkruani emrin:</label>
+        <input type="text" id="name" name="name" required>
+        <span id="error" class="error">Lejohen vetëm shkronjat</span>
+        <button type="submit">Dergo</button>
+    </form>
+
+    <script src="easy.js"></script>
+</body>
+</html>
