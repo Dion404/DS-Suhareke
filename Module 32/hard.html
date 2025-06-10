@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Validation 2</title>
+    <style>
+        .body{font-family: Arial; padding: 20px;}
+        .error{color:red;}
+    </style>
+    </head>
+<body>
+    <h2>Form validation</h2>
+    <form id="myForm">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" required><br>
+    <span id="nameError" class="error"></span><br>
+
+    <label for="age">Age:</label><br>
+    <input type="number" id="age" name="age" required><br>
+    <span id="ageError" class="error"></span><br><br>
+    
+    <button type="submit">Submit</button>
+    </form>
+
+    <script src="hard.js"></script>
+</body>
+</html>
